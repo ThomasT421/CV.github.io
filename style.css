@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 1em auto;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 18%;
+    display: block;
+}
+
+section h2 {
+    margin: 0 0 0.5em 0;
+    text-align: center;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+section li {
+    margin: 0.5em 0;
+}
+
+section {
+    position: relative;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    float:left;
+}
+
+}
+
+#bnt1 {
+    margin: 1em;
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#bnt2 {
+    margin: 1em;
+    padding: 0.5em;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* styles pour le dark theme*/
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme header {
+    background-color: #333;
+}
+
+.dark-theme section {
+    border-color: #555;
+}
+
+.dark-theme #bnt1 {
+    background-color: white;
+    color: black;
+}
+
+.dark-theme #bnt2 {
+    background-color: black;
+    color: white;
+}
