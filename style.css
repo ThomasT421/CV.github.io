@@ -21,6 +21,7 @@ section {
     padding: 1em;
     width: 20%;
     display: block;
+    position: relative;
 }
 
 /*section h2 {
